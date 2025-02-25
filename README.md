@@ -35,7 +35,7 @@
 ## 4. Loops
 - Print numbers 1 to 10 using a `for` loop.
 - Print even numbers from 2 to 20 using a `while` loop.
-- Print "Hello" 5 times using a `do-while` loop.
+- Print "Hello" 5 times using a `do-while` loop. Also print the iteration you are currently on.
 - Don't use `foreach` for this task.
 
 **Knowledge:** `for`, `while`, `do-while`
@@ -45,8 +45,7 @@
 ## 5. Methods and DRY Principle
 - Create a method `PrintMessage(string message, int count)` that prints a message multiple times.
 - Call it with `"Hello"` and `3`.
-- Ensure calling the method reduces repeated code.
-- Don't use recursion.
+- Ensure the code is DRY (Don't Repeat Yourself).
 
 **Knowledge:** `methods`, `parameters`, `DRY principle`
 
