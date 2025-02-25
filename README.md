@@ -1,5 +1,20 @@
 # C# Beginner Challenges
 
+## How to Fork This Repository
+If you are new to Git and GitHub, follow these simple steps to get started:
+
+1. Go to the GitHub page of this repository.
+2. Click the `Fork` button in the top right corner. This will create a copy of the repository under your own GitHub account.
+3. Clone the repository to your local machine:
+   ```sh
+   git clone https://github.com/YOUR_USERNAME/REPO_NAME.git
+   ```
+4. Navigate into the project folder:
+   ```sh
+   cd REPO_NAME
+   ```
+5. Open the project in your favorite code editor and start working on the challenges!
+---
 ## 1. Variables and Console Output
 - Declare three variables: one for your name, one for your age, and one for your favorite color.
 - Assign appropriate values to them.
