@@ -23,12 +23,37 @@ If you are new to Git and GitHub, follow these simple steps to get started:
 
 ---
 
-## 3. If Statements and Comparisons
-- Declare two int variables.  
-- Use an `if` statement to check if the first number is greater than the second. Print a message if true.  
-- Check if two strings are equal (case-sensitive). Print a message if they match.  
-- Compare an integer to 100 and print whether it's greater, less than, or equal.  
+## 2. Variable Declarations, Assignments, and Type Conversion
+- Declare and assign values to variables of different data types:  
+  - `int` for age  
+  - `double` for height  
+  - `char` for the first letter of your name  
+  - `boolean` for whether you like Java  
+  - `String` for your favorite programming language  
 
+---
+
+## 3. If Statements
+
+### 3.1. Grade Evaluator
+- Declare an `int` variable for a score between 0 and 100.  
+- Use `if`, `else if`, and `else` to print the grade: A, B, C, D, or F.  
+
+### 3.2. Even or Odd
+- Declare an `int` variable.  
+- Use an `if` statement to check if the number is even or odd. Print the result. (hint: modulus operator)
+
+### 3.3. Leap Year Checker
+- Declare an `int` variable for a year.  
+- Use `if` conditions to check whether the year is a leap year. A leap year is divisible by 4 but not by 100, unless it's also divisible by 400.  
+
+### 3.4. Static: who is older?
+- Declare two int variables, one for your age, one for a friend of yours.
+- Use `if` and `else` statements to print the age of the oldest person
+
+### 3.5. Dynamic: who is most experienced?
+- Ask the user how many years of experiences 2 candidates have, for a developer job.
+- Use `if` and `else` statements to print who has the most experience.
 ---
 
 ## 4. String Operations
