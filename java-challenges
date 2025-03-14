@@ -1,4 +1,4 @@
-# C# Beginner Challenges
+# Java Beginner Challenges
 
 ## How to Fork This Repository
 If you are new to Git and GitHub, follow these simple steps to get started:
@@ -14,109 +14,78 @@ If you are new to Git and GitHub, follow these simple steps to get started:
    cd REPO_NAME
    ```
 5. Open the project in your favorite code editor and start working on the challenges!
+
 ---
 ## 1. Variables and Console Output
-- Declare three variables: one for your name, one for your age, and one for your favorite color.
-- Assign appropriate values to them.
-- Declare a constant with any value.
-- Print all values to the console.
-
-**Knowledge:** `string`, `int`, `const`, `Console.WriteLine()`
-
----
-
-## 2. Using `var`
-- Declare three variables using `var` instead of explicit types.
-- Assign a name, an age, and a favorite color to them.
-- Print all values to the console.
-
-**Knowledge:** `var`, `type inference`, `Console.WriteLine()`
+- Declare three variables: one for your name (String), one for your age (int), and one for your favorite color (String).  
+- Assign appropriate values to them.  
+- Print all values to the console.  
 
 ---
 
 ## 3. If Statements and Comparisons
-- Declare two integer variables.
-- Use an `if` statement to check if the first number is greater than the second. Print a message if true.
-- Check if two strings are equal (case-sensitive). Print a message if they match.
-- Compare an integer to 100 and print whether it's greater, less than, or equal.
-
-**Knowledge:** `if`, `bool`, `==`, `>`, `<`, `string.Equals()`
+- Declare two int variables.  
+- Use an `if` statement to check if the first number is greater than the second. Print a message if true.  
+- Check if two strings are equal (case-sensitive). Print a message if they match.  
+- Compare an integer to 100 and print whether it's greater, less than, or equal.  
 
 ---
 
 ## 4. String Operations
-- Given `const string input = "Hello, Beginner!"`, modify it to get `"BEGINNER"` using string methods.
-- Store the result in `const string answer`.
-- Ensure `Console.WriteLine(answer == "BEGINNER");` prints `true`.
-
-**Knowledge:** `ToUpper()`, `Substring()`, `Length`
+- Given `final String input = "Hello, Beginner!";`, modify it to get `"BEGINNER"` using string methods.  
+- Store the result in `final String answer`.  
+- Ensure `System.out.println(answer.equals("BEGINNER"));` prints `true`.  
 
 ---
 
 ## 5. Loops
-- Print numbers 1 to 10 using a `for` loop.
-- Print even numbers from 2 to 20 using a `while` loop.
-- Print "Hello" 5 times using a `do-while` loop. Also print the iteration you are currently on.
-
-**Knowledge:** `for`, `while`, `do-while`
+- Print numbers 1 to 10 using a `for` loop.  
+- Print even numbers from 2 to 20 using a `while` loop.  
+- Print "Hello" 5 times using a `do-while` loop. Also print the iteration you are currently on.  
 
 ---
 
-## 6. Using `foreach`
-- Create an array of numbers `{2, 4, 6, 8, 10}`.
-- Use a `foreach` loop to print each number.
-
-**Knowledge:** `foreach`, `arrays`
+## 6. Using `for-each`
+- Create an array of numbers `{2, 4, 6, 8, 10}`.  
+- Use a `for-each` loop to print each number.  
 
 ---
 
 ## 7. Methods and DRY Principle
-- Create a method `PrintMessage(string message, int count)` that prints a message multiple times.
-- Call it with `"Hello"` and `3`.
-- Ensure the code is DRY (Don't Repeat Yourself).
-
-**Knowledge:** `methods`, `parameters`, `DRY principle`
+- Create a method `printMessage(String message, int count)` that prints a message multiple times.  
+- Call it with `"Hello"` and `3`.  
+- Ensure the code is DRY (Don't Repeat Yourself).  
 
 ---
 
 ## 8. Classes and Objects
-- Create a `Person` class with properties `Name` and `Age`.
-- Instantiate a `Person` object and assign values to its properties.
-- Print the `Name` and `Age`.
-
-**Knowledge:** `class`, `object`, `properties`
+- Create a `Person` class with fields `name` (String) and `age` (int).  
+- Instantiate a `Person` object and assign values to its fields.  
+- Print the `name` and `age`.  
 
 ---
 
 ## 9. Using `record`
-- Rewrite the `Person` class as a `record` type.
-- Instantiate it and print the `Name` and `Age`.
-
-**Knowledge:** `record`, `immutable types`
+- Rewrite the `Person` class as a `record` type.  
+- Instantiate it and print the `name` and `age`.  
 
 ---
 
 ## 10. Getters, Setters, and Fields
-- Create a `BankAccount` class with a private field `_balance`.
-- Add a `Deposit` method to increase the balance.
-- Add a `Withdraw` method that only allows withdrawal if enough funds exist.
-- Ensure `balance` can't be directly modified.
-
-**Knowledge:** `private`, `getter`, `setter`, `encapsulation`
+- Create a `BankAccount` class with a private field `balance` (double).  
+- Add a `deposit` method to increase the balance.  
+- Add a `withdraw` method that only allows withdrawal if enough funds exist.  
+- Ensure `balance` can't be directly modified.  
 
 ---
 
 ## 11. Finding Data in Collections
-- Create an array of numbers `{1, 3, 5, 7, 9}`.
-- Write a method that checks if a given number exists in the array.
-- Return `true` if found, `false` otherwise.
-- Use a loop.
-
-**Knowledge:** `arrays`, `loops`, `methods`
+- Create an array of numbers `{1, 3, 5, 7, 9}`.  
+- Write a method that checks if a given number exists in the array.  
+- Return `true` if found, `false` otherwise.  
+- Use a loop.  
 
 ---
 
-## 12. Using `Contains()`
-- Rewrite the previous task using `Contains()` instead of a loop.
-
-**Knowledge:** `Contains()`, `LINQ
+## 12. Using `contains()`
+- Rewrite the previous task using a `List` and the `contains()` method instead of a loop.  
