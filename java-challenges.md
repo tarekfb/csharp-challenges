@@ -1,4 +1,5 @@
 # Java Beginner Challenges
+### Note: Only challenges 1 - 8 and 10 are valid for worth doing at the moment. The others might be invalid for Java.
 
 ## How to Fork This Repository
 If you are new to Git and GitHub, follow these simple steps to get started:
